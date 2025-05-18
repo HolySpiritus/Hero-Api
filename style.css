@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242323;
+}
+/*Nav*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #484647;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+/*containe*/
+.container{
+    padding: 10px 10%;
+}
+
+.introduction{
+    color: #fff;
+}
+.introduction h1{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: -2px -3px 6px rgba(255,255,255,0.63);
+
+    
+}
+.introduction p{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    
+}
+.info h2{
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: -2px -3px 6px rgba(255,255,255,0.63);
+}
+
+/*--------------footer-------*/
+footer{
+    background-color: #484647;
+}
+.footer-container{
+   width: 100%;
+   padding: 70px 30px 20px; 
+}
+.footer-nav{
+    margin: 30px 0;
+}
+.footer-nav h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footer-nav ul li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.footer-bottom{
+ padding: 20px;
+ justify-content: center;
+}
+.footer-bottom a{
+    color: #484647;;
+}
