@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Den</title>
+    <link rel="stylesheet" href="compare.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav>
+    <img src="/Images/logo2.jpg" class="logo" alt="Logo">
+    <ul id="menu" class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hero.html">Hero Search</a></li>
+      <li><a href="compare.html">Hero Comparison</a></li>
+      <li><a href="contact.html">Contacts</a></li>
+    </ul>
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+<div class="container"></div>
+
+<div class="hero-compare">
+    <h2>Compare Heroes</h2>
+    <form id="compare-form">
+        <input type="text" id="search1" placeholder="Search Hero 1" autocomplete="off" required>
+        <div id="results1" class="search-results"></div>
+        <span>vs</span>
+        <input type="text" id="search2" placeholder="Search Hero 2" autocomplete="off" required>
+        <div id="results2" class="search-results"></div>
+        <button type="submit">Compare</button>
+    </form>
+    <div id="comparison-result"></div>
+</div>
+
+
+
+<footer>
+    <div class="footer-nav">
+        <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="hero.html">Hero Search</a></li>
+          <li><a href="compare.html">Hero comparison</a></li>
+          <li><a href="random.html">Random</a></li>
+          <li><a href="contact.html">Contacts</a></li>
+        </ul>
+        <br>
+        <h1 style="color: #fff;">© 2024 Made by Sniper all rights reserved </h1>
+    </div>
+    <div class="footer-bottom">
+        <a href="https://youtu.be/qNDCh2rlry8" target="_blank">Domain Expansion</a>
+    </div>
+</footer>
+
+
+<script src="compare.js"></script>
+</body>
+</html>
